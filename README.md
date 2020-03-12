@@ -1,4 +1,6 @@
 # Eternalghost
+* [Deutsch](#deutsch)
+* [English](#english)
                                     
 ## Deutsch
 Dieses Repository enthält einen Testfall für CVE-2020-0796
