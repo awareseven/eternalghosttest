@@ -21,7 +21,7 @@ Wenn Sie eine Perimeter-Firewall haben, sollten Sie in Betracht ziehen, den TCP-
 Da es sich um einen "wurmstichigen" Angriff handelt, sollten Sie auch den SMB-Verkehr von seitlichen Verbindungen und den Eintritt oder Austritt aus Ihrem Netzwerk verhindern.
 [Verhindern von unkontrolliertem SMB Verkehr in Ihrem Netzwerk](https://support.microsoft.com/en-us/help/3185535/preventing-smb-traffic-from-lateral-connections)
 
-Nähere Informationen finden Sie auf dem [AWARE7 Blog](https://aware7.de/blog/eternaldarkness-kritische-sicherheitsluecke-bei-windows-10)
+Nähere Informationen finden Sie auf dem [AWARE7 Blog](https://aware7.com/de/blog/eternaldarkness-kritische-sicherheitsluecke-bei-windows-10/)
 
 ### Derzeit anfällige Systeme
 
@@ -33,6 +33,8 @@ Nähere Informationen finden Sie auf dem [AWARE7 Blog](https://aware7.de/blog/et
 * Windows 10 Version 1909 für x64-basierte Systeme
 * Windows Server, Version 1903 (Server Core-Installation)
 * Windows Server, Version 1909 (Server Core-Installation)
+
+Im Rahmen unserer [Pentetrationstests](https://aware7.com/de/blog/eternaldarkness-kritische-sicherheitsluecke-bei-windows-10/) überprüfen wir Ihre Systeme auch auf diese Schwachstelle.
 
 ## English
 This repository contains a test case for CVE-2020-0796
@@ -53,7 +55,7 @@ If you have a perimeter firewall you should consider blocking TCP port 445. Syst
 Since the attack is "wormable" you should also prevent SMB traffic from lateral connections and entering or leaving your network.
 [Preventing SMB traffic from lateral connections and entering/leaving your network](https://support.microsoft.com/en-us/help/3185535/preventing-smb-traffic-from-lateral-connections)
 
-Find more information on our [AWARE7 blog](https://aware7.de/en/blog/eternaldarkness-critical-vulnerability-in-windows-10)
+Find more information on our [AWARE7 blog](https://aware7.com/blog/eternaldarkness-critical-vulnerability-in-windows-10/)
 
 ### Currently Vulnerable Systems
 
@@ -65,3 +67,5 @@ Find more information on our [AWARE7 blog](https://aware7.de/en/blog/eternaldark
 * Windows 10 Version 1909 for x64-based Systems
 * Windows Server, version 1903 (Server Core installation)
 * Windows Server, version 1909 (Server Core installation)
+
+As part of our [penetration tests](https://aware7.com/blog/eternaldarkness-critical-vulnerability-in-windows-10/), we also check your systems for this vulnerability.
